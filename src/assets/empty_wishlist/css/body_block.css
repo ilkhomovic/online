@@ -1,0 +1,42 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.block div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+
+.block .p {
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #555555;
+    margin-bottom: -20px;
+}
+
+.block p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #555555;
+}
+
+
+.block a {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999999;
+}

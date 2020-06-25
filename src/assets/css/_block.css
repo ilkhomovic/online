@@ -1,0 +1,147 @@
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+body {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    margin: 0px;
+    
+}
+
+.block_text a , .block_icons_text a{  
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 20px;
+}
+
+.home_block {
+    background-image: url(../images/bg_image_slide_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block_child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.block_childhood {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row; 
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.block_text {
+    display: flex;
+    align-items: center;
+}
+
+.block_text div {
+    margin: 10px;
+}
+
+.block_icon_logo {
+    margin-right: 50px;
+}
+
+.block_icons_text {
+    display: flex;
+    align-items: center;
+}
+
+.block_icons_text div{
+    margin: 15px;
+}
+
+.block_text_H4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.block_text_H4 h4 {
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 55px;
+    color: #FFFFFF;
+
+}
+
+.block_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block_button_child {
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFFFFF;
+}
+
+.block_button  a {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    
+}
+
+
+.empty {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+}
+
+.empty div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 3px solid #333333;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.empty div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+}

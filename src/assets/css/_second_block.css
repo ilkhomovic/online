@@ -1,0 +1,67 @@
+.second_block_child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.second_block_img_shirt {
+    margin-right: 30px;
+}
+
+.second_block_img_shirt img {
+    width: 100%;
+    height: auto;
+}
+
+.second_block_text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.second_block_text_p-1 p {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0px;
+    font-size: 50px;
+    color: #555555;
+}
+
+
+.second_block_text_p p {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 154%;
+    color: #555555;
+}
+
+.second_block_text_button {
+    margin-top: 20px;
+    width: 250px;
+    border: 2px solid #555555;
+    box-sizing: border-box;
+}
+
+.second_block_text_button_a {
+    position: relative;
+    text-align: center;
+    line-height: 35px;
+}
+
+.second_block_text_button a {
+    font-family: Lab Grotesque;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+}
+

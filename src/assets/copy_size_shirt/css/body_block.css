@@ -1,0 +1,144 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.active-shirt img {
+    
+    height: 100%;
+    width: 100%;
+}
+
+.chose-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.chose-size img {
+    margin-top: 10px;
+    height: 50px;
+    width: 130px;
+}
+
+
+.chose-size p {
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #555555;
+
+}
+
+.push {
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.push img {
+    margin-top: -20px;
+}
+
+
+.box {
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(51, 51, 51, 0.25);
+}
+
+
+.write-size {
+    height: 100%;
+    width: 600px;
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+
+.text h4 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    color: #555555;
+
+}
+
+.text-size p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+
+}
+
+
+
+
+
+.input {
+    height: 30px;
+    width: 100px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.input {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+
+}
+
+
+.label-text {
+    font-size: 24px;
+    line-height: 29px;
+    color: #555555;
+
+}
+
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.next {
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+}
+
+.next a {
+    
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    color: #333333;
+
+}

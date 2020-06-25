@@ -1,0 +1,99 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.block h4 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.horizontale-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.label-text {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    color: #555555;
+}
+
+.input-text , .placeholder {
+    height: 35px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.country-text , .input-text{
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+    
+    color: #777777;
+}
+
+
+.button-change {
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    background: #555555;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.button-change a {
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.horizontale-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.horizontale-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    width: 700px;
+}
+
+.p {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+
+}
+
+.label-text-2 {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #555555;
+
+}

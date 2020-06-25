@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    
+}
+
+.box_1 , .block_text {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.about_text .about p {
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+._text {
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+    
+}
+
+._text img {
+    margin-right: 10px;
+    margin-bottom: -5px ;
+}
+
+._text p {
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    font-size: 22px;
+    line-height: 40px;
+    color: #555555;
+
+}
+
+
+.box_2 img {
+    width: 100%;
+}
+
+
+.block_text {
+    display: flex;
+   
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.text_box_1 div p , .text_box_2 div p , .text_box_3 div p {
+    font-weight: 500;
+    width: 440px;
+    font-size: 26px;
+    line-height: 40px;
+    color: #555555;
+
+}
+
+.text_box_1 p , .text_box_2 p , .text_box_3 p {
+    font-weight: normal;
+    width: 430px;
+    font-size: 19px;
+    line-height: 34px;
+    color: #555555;
+
+}
+
+.text_box_2 , .text_box_3 {
+   margin-left: 15px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.video img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.middle  {
+    position: absolute;
+}
+
+.middle a img{
+    width: 150px;
+}
+

@@ -1,0 +1,29 @@
+/* *{
+    border: 1px solid red;
+} */
+
+
+.block {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.block .p {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.block p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.block img {
+    width: 100%;
+}

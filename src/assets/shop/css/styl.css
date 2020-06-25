@@ -1,0 +1,493 @@
+/* *{
+    border: 3px solid red;
+    
+} */
+
+body {
+    margin: 0px; 
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.menu_block {
+    display: flex;
+    justify-content: space-between;
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+@media (max-width: 1250px){
+    .menu_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.menu_button_box_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+@media (max-width: 1200px){
+    .menu_button_box_1 {
+        width: 400px;
+    }
+}
+
+.menu_button_box_1 a { 
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+@media (max-width: 1200px){
+    .menu_button_box_1 a { 
+        font-size: 14px;
+    }
+}
+
+
+.menu_logo {
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+
+@media (max-width: 1200px){
+    .menu_logo {
+        height: 130px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.menu_button_box_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+@media (max-width: 1200px){
+    .menu_button_box_2 {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+}
+
+.menu_button_box_2 a { 
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+
+@media (max-width: 1200px){
+    .menu_button_box_2 a { 
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #333333;
+    
+    }
+}
+
+
+
+
+/* --------------------------------------------------------------------Block---------------------------------------------------------- */
+
+
+
+
+
+
+
+.block_ {
+    background-image: url(../img/bg_image_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_bigtext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+}
+
+@media (max-width: 900px){
+    .block_bigtext {
+        height: 150px;
+    }
+}
+
+
+
+.block_bigtext h4 {
+    width: 900px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 900px){
+    .block_bigtext h4 {
+        font-size: 25px;
+    }
+}
+
+.block_smolltext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+    
+}
+
+.block_smolltext p {
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 1050px;
+    text-align: center;
+}
+
+
+@media (max-width: 900px){
+    .block_smolltext p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------Boxes--------------------------------------------------------------*/
+
+
+
+
+.block_boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 1100px){
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+
+
+.boxes {
+    margin-left: 15px;
+}
+
+@media (max-width: 1100px){
+    .boxes {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}
+
+
+.box_img_1 {
+    background-image: url(../img/box_shirt_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_2 {
+    background-image: url(../img/box_shirt_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_3 {
+    background-image: url(../img/box_shirt_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_4 {
+    background-image: url(../img/box_shirt_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_5 {
+    background-image: url(../img/box_shirt_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_6 {
+    background-image: url(../img/box_shirt_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_7 {
+    background-image: url(../img/box_shirt_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_8 {
+    background-image: url(../img/box_shirt_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+
+.shirt-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.shirt_name {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #777777;
+
+}
+
+.shirt_price {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 10px;
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------END---------------------------------------------------------- */
+
+.shadow {
+    box-shadow: 0px -5px 20px #E5E5E5;
+}
+
+
+.box_end {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.box_end_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1400px){
+    .box_end_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
+
+.box_button_text {
+    width: 200px;
+}
+
+.box_button_text p {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 5px;
+    color: #111111;
+    opacity: 0.7;
+}
+
+.box_button_icon {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+
+._button_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 760px){
+    ._button_icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 250px;
+    }
+}
+
+
+._button_icon a img {
+    filter: grayscale(100%);
+    padding-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+
+.text_button_icon img {
+    width: 40px;
+    height: 25px;
+}
+
+
+.text_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+.facebook , .instagram , .telegram {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+
+
+
+.facebook a {
+    margin-left: 15px;
+}
+
+
+.instagram a {
+    margin-left: 15px;
+}
+
+.telegram a {
+    margin-left: 15px;
+}
+
+
+.text_button a , .text_button_icon a {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 35px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+
+@media (max-width: 760px){
+    .text_button a , .text_button_icon a {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 35px;
+        color: #333333;
+        opacity: 0.7;
+    }
+}
+
+
+.text_info {
+    height: 100px;
+    margin-top: 20px;   
+    font-size: 16px;
+    line-height: 29px;
+    color: #555555;
+
+}
+
+@media (max-width: 760px){
+    .text_info {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 29px;
+        color: #555555;
+    
+    }
+}
+
+
+

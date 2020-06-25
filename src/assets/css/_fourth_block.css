@@ -1,0 +1,76 @@
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.fourth_block {
+    background-image: url(../images/fourth_block_bg_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.fourth_block_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 450px;
+    
+}
+
+.fourth_block_text p {
+    font-style: normal;
+    font-weight: 300;
+    width: 900px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+@media (max-width: 1100px){
+    .fourth_block_text p {
+        width: auto;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+}
+
+.fourth_block_button {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    padding-top: 50px;
+}
+
+
+.fourth_block_button_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.fourth_block_button_text a {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    
+}

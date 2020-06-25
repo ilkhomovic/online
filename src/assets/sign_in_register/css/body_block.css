@@ -1,0 +1,151 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    display: flex;
+    justify-content: center;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.block_box {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+.text {
+    font-size: 24px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #999999;
+
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+    line-height: 39;
+    color: #555555;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+
+.p {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+
+.box_register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.box_register div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 270px;
+    background: #555555;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+}
+
+
+.box_register a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.forgot_password {
+    text-align: center;
+}
+
+.forgot_password a {
+    font-size: 20px;
+    line-height: 39px;
+    text-decoration-line: none;
+    color: #777777;
+    border-bottom: 1px solid #777777;
+
+}
+
+.or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+
+.or div {
+    height: 0px;
+    width: 270px;
+    border: 1px solid #999999;
+}
+
+p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+    color: #777777;
+
+}
+
+
+.social_network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.social_network a {
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 270px;
+    background: #DC3545;
+}
+
+
+
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 270px;
+    background: #3B5998;
+}

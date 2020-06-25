@@ -1,0 +1,236 @@
+.block_body {
+    background-image: url(../img/bg_image_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_bigtext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 250px;
+}
+
+@media (max-width: 900px){
+    .block_bigtext {
+        height: 150px;
+    }
+}
+
+
+
+.block_bigtext h4 {
+    font-weight: 900;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 900px){
+    .block_bigtext h4 {
+        font-size: 25px;
+    }
+}
+
+.block_smolltext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+    
+}
+
+.block_smolltext p {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 1050px;
+    text-align: center;
+}
+
+
+@media (max-width: 900px){
+    .block_smolltext p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------Boxes--------------------------------------------------------------*/
+
+
+
+
+.block_boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1300px){
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+
+
+.boxes {
+    margin-left: 15px;
+}
+
+@media (max-width: 1100px){
+    .boxes {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}
+
+
+.box_img_1 {
+    background-image: url(../img/box_shirt_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_2 {
+    background-image: url(../img/box_shirt_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_3 {
+    background-image: url(../img/box_shirt_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.box_img_4 {
+    background-image: url(../img/box_shirt_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_5 {
+    background-image: url(../img/box_shirt_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_6 {
+    background-image: url(../img/box_shirt_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_7 {
+    background-image: url(../img/box_shirt_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.box_img_8 {
+    background-image: url(../img/box_shirt_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+
+.shirt-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.shirt_name {
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 29px;
+    color: #777777;
+
+}
+
+.shirt_price {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 10px;
+    color: #777777;
+}
+
+
+
+/* ------------------------------------------------------------------ more ------------------------------------------------------ */
+
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 800px;
+}
+
+.button_more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,143 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+.block .p {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.text_boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_boxes div .p {
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.text_boxes div p , a {
+    font-weight: 500;
+    width: 300px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;  
+}
+
+
+.map_active .p {
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.map_active img {
+    width: 100%;
+}
+
+
+
+.text_form .p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+}
+
+.horizontal-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-element {
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.form-element {
+    margin: 20px;
+}
+
+.form-element input {
+    height: 40px;
+    width: 300px;
+    font-size: 22px;
+    line-height: 39px;
+    color: #555555;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+
+.horizontal-form-message {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.horizontal-form-message div label {
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+
+.horizontal-form-message div textarea {
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 990px;
+    min-width: 990px;
+    font-size: 22px;
+    line-height: 39px;
+    color: #555555;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    height: 40px;
+    width: 240px;
+    background: #555555;
+    border: 2px solid #555555;
+    box-sizing: border-box;
+
+}
+
+.button-box a {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}

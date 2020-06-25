@@ -1,0 +1,113 @@
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.fifth_block_box_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 40px;
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+@media (max-width: 1300px){
+    .fifth_block_box_1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.fifth_block_box_1 div {
+    width: 400px;
+}
+
+.box_img_1 {
+    background-image: url(../images/fifth_block_img_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+   
+}
+
+.box_img_2 {
+    background-image: url(../images/fifth_block_img_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  
+}
+
+.box_img_3 {
+    background-image: url(../images/fifth_block_img_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    
+}
+
+
+.box_bigtext {
+    margin-top: 30px;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    width: 400px;
+    height: 30px;
+ }
+
+.box_smolltext {
+    font-weight: 300;
+    height: 120px;
+}
+
+.stext {
+    line-height: 30px;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #333333;
+    width: 400px;
+}
+
+.button_box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    height: 100px;
+}
+
+
+.box_div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 45px;
+    border: 2px solid #555555;
+    box-sizing: border-box;
+}
+
+.button_box a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #555555;
+}

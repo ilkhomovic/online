@@ -1,0 +1,134 @@
+/* *{
+    border: 1px solid red;
+} */
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+
+.p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    color: #555555;
+}
+
+.box_form {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.box_form  img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.form_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 600px;
+}
+
+
+.text {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 39px;
+    color: #999999;
+
+}
+
+
+
+
+.block_price {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.price-text {
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 39px;
+    color: #999999;
+}
+
+
+.input {
+    height: 40px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+
+.input , .input_sms , .input_price {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+    color: #555555;
+
+}
+
+
+.input_sms{
+    min-height: 100px;
+    min-width: 100%;
+    max-height: 100px;
+    max-width: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+
+.input_price {
+    height: 40px;
+    width: 150px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin-top: 40px;
+    background: #333333;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.button a {
+    font-size: 14px;
+    line-height: 39px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d8d5d5;
+
+}

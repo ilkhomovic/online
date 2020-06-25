@@ -1,0 +1,117 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.block {
+    font-family: Lab Grotesque;
+    font-style: normal;
+}
+
+a {
+    text-decoration-line: underline solid #555555;
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+}
+
+.block h4 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #555555;
+    margin: 150px;
+}
+
+.block img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.box-2 div {
+    margin: 10px;
+}
+
+.box-2 img {
+    width: 100%;
+}
+
+
+.box-2-text {
+    width: 600px;
+}
+
+.box-2-text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #555555;
+
+}
+
+.box-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.box-3 div {
+    margin: 10px;
+}
+
+.box-3 img {
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.box-3-text {
+    height: 100%;
+    width: 750px;
+}
+
+.box-3-text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555555;
+
+}
+
+.box-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.box-4 div {
+    margin: 10px;
+}
+
+.box-4 img {
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.box-4-text {
+    width: 600px;
+}
+
+.box-4-text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555555;
+}

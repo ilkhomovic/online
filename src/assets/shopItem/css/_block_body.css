@@ -1,0 +1,301 @@
+/* *{
+    border: 3px solid red;  
+} */
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.block_body {
+    display: flex;
+    justify-content: space-between;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+
+.smoll_shirts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.smoll_shirts img {
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.big_shirt {
+    height: 100%;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.big_shirt img {
+    height: 630px;
+    width: auto;
+}
+
+
+.box_text_active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 650px;
+}
+
+.box-text-1 h4 {
+    font-weight: 500;
+    width: 500px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.box-text-1 p {
+    font-weight: 500;
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.box_text_active .box-text-2 p {
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+
+}
+
+
+.box_text_active .box-text-2 h5 {
+    font-weight: 500;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #777777;
+
+}
+
+
+.icon_shirt_active {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+.button_active_style {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+
+
+._slim {
+    text-align: center;
+    width: 100px;
+    background: #555555;
+    border: 2px solid #999999;
+    box-sizing: border-box;
+}
+
+
+._classic {
+    text-align: center;
+    width: 100px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.__slim {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.__classic {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #333333;
+
+}
+
+
+.gid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    margin-top: 0px;
+}
+
+.gid h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0px;
+    color: #777777;
+}
+
+.gid p {
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 20px;
+    color: #777777;
+    border-bottom: 1px solid #777777;
+}
+
+
+
+.button_active {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 460px;
+    margin-top: 5px;
+}
+
+.button_size_38 {
+    text-align: center;
+    width: 70px;
+    background: #555555;
+    border: 2px solid #999999;
+    box-sizing: border-box;
+}
+
+.__38 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.button_size_40 {
+    text-align: center;
+    width: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.__40 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.button_size_42 {
+    text-align: center;
+    width: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.__42 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+
+.button_size_44 {
+    text-align: center;
+    width: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.__44 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.button_size_46 {
+    text-align: center;
+    width: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+.__46 {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.button_active_end {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 450px;
+    margin-top: 30px;  
+    margin-bottom: 5px; 
+}
+
+._basket {
+    text-align: center;
+    width: 200px;
+    background: #555555;
+    border: 2px solid #999999;
+    box-sizing: border-box;
+}
+
+._basket a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+._create {
+    text-align: center;
+    width: 200px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(37, 50, 82, 0.25);
+}
+
+._create  a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.table-text {
+    font-size: 20px;
+    line-height: 36px;
+    color: #999999;
+
+}
+
